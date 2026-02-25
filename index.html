@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Juntos desde 12/07/2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+  <main class="card">
+    <h1 class="title">Juntos desde 12/07/2025</h1>
+
+    <section class="counter">
+      <div class="time-segment"><span id="days">0</span><small>Dias</small></div>
+      <div class="time-segment"><span id="hours">0</span><small>Horas</small></div>
+      <div class="time-segment"><span id="minutes">0</span><small>Minutos</small></div>
+      <div class="time-segment"><span id="seconds">0</span><small>Segundos</small></div>
+    </section>
+
+    <section class="photos">
+      <p class="photos-note"></p>
+      <div class="photos-grid">
+        <div class="photo" data-index="1">
+          <input type="file" accept="image/*" class="file-input" />
+          <img class="preview" alt="Foto 1" />
+          <div class="placeholder">+</div>
+        </div>
+        <div class="photo" data-index="2">
+          <input type="file" accept="image/*" class="file-input" />
+          <img class="preview" alt="Foto 2" />
+          <div class="placeholder">+</div>
+        </div>
+        <div class="photo" data-index="3">
+          <input type="file" accept="image/*" class="file-input" />
+          <img class="preview" alt="Foto 3" />
+          <div class="placeholder">+</div>
+        </div>
+        <div class="photo" data-index="4">
+          <input type="file" accept="image/*" class="file-input" />
+          <img class="preview" alt="Foto 4" />
+          <div class="placeholder">+</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="love-action">
+      <button id="love-btn" class="love-btn">Aperte se me ama</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
